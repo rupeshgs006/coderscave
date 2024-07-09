@@ -37,8 +37,8 @@ class Share:
     def __init__(self):
         self.user_type = None
         # Twilio client initialization
-        self.account_sid = 'ACba32aa9387fcdb43035717076e9a29d2'
-        self.auth_token = '9bc963654ce9b9039160db41ffc38c61'
+        self.account_sid = 'account sid'
+        self.auth_token = 'auth token'
         self.twilio_client = Client(self.account_sid, self.auth_token)
         self.twilio_number = '+15074125363'
 
