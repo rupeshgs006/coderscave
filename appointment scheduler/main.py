@@ -40,7 +40,7 @@ class Share:
         self.account_sid = 'account sid'
         self.auth_token = 'auth token'
         self.twilio_client = Client(self.account_sid, self.auth_token)
-        self.twilio_number = '+15074125363'
+        self.twilio_number = 'twilio number'
 
     def main_menu(self):
         while True:
